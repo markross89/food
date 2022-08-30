@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/scrumlab"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="coderslab"
+              driverClassName="com.mysql.jdbc.Driver"
+              connectionProperties="useUnicode=yes;characterEncoding=utf8;useSSL=false"
+              url="jdbc:mysql://localhost:3306/scrumlab"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000" />
+</Context>
